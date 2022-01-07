@@ -58,6 +58,18 @@ ul {
     border: 0rem;
 }
 
+.PlayerFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PlayerProfile {
+  width: 60%;
+  padding: 0.5rem;
+}
+
 #INT{
     font-size: 80px;
     background: -webkit-linear-gradient(left, #b91562 , rgb(137, 6, 67));
@@ -78,6 +90,10 @@ ul {
     border-radius: 15px;
   }
 footer{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
     border-top: 0.5px solid;
     border-color: rgb(27, 27, 27);
     margin-top: 10rem;
@@ -86,4 +102,79 @@ footer{
 #footertext{
     text-align: center;
     color: rgb(136, 136, 136);
+}
+
+/*----------------------------------------------*/
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  justify-content: center;
+  margin-top: 5rem;
+}
+table {
+  width: 80%;
+  border-radius: 10px;
+  background-color: #252525;
+  padding: 5px;
+}
+td {
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #1b1b1b;
+}
+th {
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  border-radius: 5px;
+  background-color: #1b1b1b;
+}
+
+#trophy {
+  width: 60%;
+  border-radius: 20px;
+  margin: 3rem;
+}
+
+/*about-----------------------------------------*/
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#upset {
+  border-radius: 20px;
+  height: 650px;
+  margin: 5rem;
+}
+
+.abouttext {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  border-radius: 20px;
+  height: 610px;
+  margin: 5rem;
+  background-color: #252525;
+  padding: 20px;
+}
+
+#Esportsheader {
+  font-size: 5rem;
+    background: -webkit-linear-gradient(left, #b91562 , rgb(137, 6, 67));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+  text-align: center;
+}
+
+#Esportstext {
+  font-size: 1.8rem;
+  text-align: center;
 }
